@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "content-hash": "252971f869a368ba7e5ae4e75bbc55ec",
-=======
-    "content-hash": "010ee5530b8d3996bfe1cab367d4f77d",
->>>>>>> Versão 1.1.0 cadastro professores
+    "content-hash": "bfabd92b177e28de4f4c1786542906ca",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -241,8 +237,6 @@
             "time": "2018-02-23T01:58:20+00:00"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "ivaynberg/select2",
             "version": "4.0.5",
             "source": {
@@ -285,16 +279,16 @@
         },
         {
             "name": "kartik-v/yii2-krajee-base",
-            "version": "v1.8.9",
+            "version": "v1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-krajee-base.git",
-                "reference": "0cafe6376780cedcd00f52c9d82b172d5851f6b0"
+                "reference": "43553e2ee7206d7feb8976ad1861a9be5e50d83e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/0cafe6376780cedcd00f52c9d82b172d5851f6b0",
-                "reference": "0cafe6376780cedcd00f52c9d82b172d5851f6b0",
+                "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/43553e2ee7206d7feb8976ad1861a9be5e50d83e",
+                "reference": "43553e2ee7206d7feb8976ad1861a9be5e50d83e",
                 "shasum": ""
             },
             "require": {
@@ -303,12 +297,12 @@
             "type": "yii2-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8.x-dev"
+                    "dev-master": "1.9.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "kartik\\base\\": ""
+                    "kartik\\base\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -332,7 +326,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2017-09-29T06:18:14+00:00"
+            "time": "2018-08-16T08:17:30+00:00"
         },
         {
             "name": "kartik-v/yii2-widget-select2",
@@ -465,7 +459,6 @@
             "time": "2016-11-11T18:43:20+00:00"
         },
         {
->>>>>>> Versão 1.1.0 cadastro professores
             "name": "larapack/dd",
             "version": "1.1",
             "source": {
@@ -502,8 +495,6 @@
             "time": "2016-12-15T09:34:34+00:00"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "robloach/component-installer",
             "version": "0.2.3",
             "source": {
@@ -593,7 +584,6 @@
             "time": "2017-10-25T22:08:18+00:00"
         },
         {
->>>>>>> Versão 1.1.0 cadastro professores
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.12",
             "source": {
@@ -707,8 +697,6 @@
             "time": "2018-08-06T14:22:27+00:00"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "symfony/process",
             "version": "v3.4.14",
             "source": {
@@ -758,7 +746,6 @@
             "time": "2018-07-26T11:19:56+00:00"
         },
         {
->>>>>>> Versão 1.1.0 cadastro professores
             "name": "symfony/var-dumper",
             "version": "v3.4.14",
             "source": {
@@ -826,6 +813,58 @@
                 "dump"
             ],
             "time": "2018-07-26T11:19:56+00:00"
+        },
+        {
+            "name": "tcdent/php-restclient",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tcdent/php-restclient.git",
+                "reference": "4522e8518eaef770d715977fcb45f187f8ad7499"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tcdent/php-restclient/zipball/4522e8518eaef770d715977fcb45f187f8ad7499",
+                "reference": "4522e8518eaef770d715977fcb45f187f8ad7499",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "php": ">=5.5.7",
+                "phpunit/phpunit": ">=4.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "restclient.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Dent",
+                    "email": "tcdent@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A generic REST API client for PHP",
+            "homepage": "http://github.com/tcdent/php-restclient",
+            "keywords": [
+                "api",
+                "client",
+                "curl",
+                "json",
+                "rest",
+                "xml"
+            ],
+            "time": "2017-09-07T20:44:36+00:00"
         },
         {
             "name": "yiisoft/yii2",

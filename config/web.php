@@ -21,10 +21,13 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-           /* 'rules' => [
-                '' => 'site/index',
-                '<action>'=>'site/<action>',
-            ],*/
+            'rules' => [
+                [
+                    'class' => 'yii\rest\UrlRule',
+                    'pluralize' => false,
+                    'controller' => 'api/rest'
+                ]
+            ],
         ],
 
         'cache' => [
@@ -56,8 +59,14 @@ $config = [
         'db' => $db,
 
 
+
     ],
     'params' => $params,
+    'modules' => [
+        'api' => [
+            'class' => 'app\modules\api\ApiModule',
+        ],
+    ]
 ];
 
 if (YII_ENV_DEV) {

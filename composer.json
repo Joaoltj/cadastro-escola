@@ -19,14 +19,13 @@
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "larapack/dd": "^1.1",
-<<<<<<< HEAD
-        "yiisoft/yii2-jui": "^2.0"
-=======
+
         "yiisoft/yii2-jui": "^2.0",
         "kartik-v/yii2-widget-select2": "^2.1",
         "select2/select2": "^4.0",
-        "ivaynberg/select2": "^4.0"
->>>>>>> Versão 1.1.0 cadastro professores
+        "ivaynberg/select2": "^4.0",
+        "tcdent/php-restclient": "^0.1.7"
+
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
